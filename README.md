@@ -26,7 +26,7 @@ Current obsessions:
   - `run()` for ideal statevectors + `sample(shots=...)` for measurement counts  
   Basically: “I made a tiny Qiskit-ish thing, minus the industrial scaffolding.”
 
-- **`coloour`** -- code to transform standard rgb to different space and calculates differenxce to human eye
+- **`colour`** -- code to transform standard rgb to different space and calculates differenxce to human eye
 ---
 
 ## Toolbox
@@ -55,4 +55,5 @@ Current obsessions:
 ### PS
 If you’re here for *serious* work: yes.  
 If you’re here for *cricket + quantum + web apps coexisting in one profile*: also yes.
+
 If you're here for a `Kohli Obessed Womens cricket nerd`: 100% yes.
