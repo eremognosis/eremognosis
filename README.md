@@ -55,5 +55,4 @@ Current obsessions:
 ### PS
 If you’re here for *serious* work: yes.  
 If you’re here for *cricket + quantum + web apps coexisting in one profile*: also yes.
-
 If you're here for a `Kohli Obessed Womens cricket nerd`: 100% yes.
