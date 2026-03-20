@@ -1,58 +1,68 @@
-# eremognosis
+# eremognosis (Raj)
 
-I build things in **Python** that turn **data and spite into usable stuff**  and occasionally I build websites to prove I can also center a div (sometimes).
+I build things in **Python** (mostly, though I tolerate C/C++/Java/JS/PHP) that turn **data and spite into usable software**. Occasionally, I build web apps to prove I can still center a `<div>` when absolutely necessary.
 
-Current obsessions:
-- **Data engineering for cricket data**: JSON → Parquet → DuckDB/dbt → “now it’s queryable and my corporate martyr thinkcentre running debian still lives”
-- **Quantum computing simulators** (statevectors, gates, circuits) in pure Python/NumPy because I thought writing a QC lib is the best way to spend diwali break
-- **Portfolio / web apps**: Flask + HTML/CSS/JS + email + auth; the usual “full-stack, but make it cute”
-
----
-
-## Featured projects (a.k.a. “things I actually ship”)
-
-### 🏏 Cricket data pipeline (JSON → Parquet → analytics)
-- **`cricket`** — processes large cricket JSON dumps into **Parquet** for easier querying (e.g. **DuckDB**) and includes a **dbt** project layout.  
-  Status: evolving (a.k.a. “exams happened, update later”, life happaens) 
-  Bonus: points at `cricdata.co.in` when available. (now you will see void)
-
-- **`cricdata`** — companion repo with structure + requirements; part of the same “make cricket data not horrifying to query” mission. (its private for now)
-
-### ⚛️ Quantum computing (but dependency-minimal)
-- **`QC-Lib` / VectorQ** — a **pure-Python + NumPy** quantum **statevector simulator** with:
-  - `QuantumCircuit`, `QuantumGate`, `Statevector`
-  - efficient gate application via tensor operations (`tensordot`)
-  - validation (normalization, unitarity, dimensions)
-  - `run()` for ideal statevectors + `sample(shots=...)` for measurement counts  
-  Basically: “I made a tiny Qiskit-ish thing, minus the industrial scaffolding.”
-
-- **`colour`** -- code to transform standard rgb to different space and calculates differenxce to human eye
----
-
-## Toolbox
-**Primary:** Python  
-**Data/analytics:** DuckDB, Parquet, dbt (in the cricket pipeline ecosystem)  
-**Web:** Flask + HTML/CSS/JavaScript  
-**Math/compute:** NumPy (quantum simulator core)
+### Current Obsessions:
+- **Data Engineering:** JSON → Parquet → DuckDB/dbt. Making cricket data queryable so my corporate martyr ThinkCentre running Debian doesn't die in vain.
+- **Quantum Computing:** Writing pure Python/NumPy statevector simulators because I thought rebuilding a dependency-minimal Qiskit was a normal way to spend Diwali break.
+- **Over-engineered Grudges:** Full-stack web apps (Flask/Django) built purely to solve highly specific, petty annoyances.
 
 ---
 
-## How I like to build
-- Start with a script, graduate to a pipeline, then pretend it was always the plan.
-- Prefer **simple dependencies** and readable (by me) code over “it works if you install 47 packages and whisper to pip”.
-- If it can be validated, it should be validated (statevectors included).
-- If it SSHes it works
+## Background
+- 19-year-old CSE undergrad at **NIT Trichy**.
+- Deeply passionate about Math, Physics, Data, and Hiphop. 
+- If a project requires high-level math, system design, or sheer stubbornness, I'm probably building it.
 
 ---
 
-## Contact / links
-- GitHub: `@eremognosis`
-- Cricket data: `cricdata.co.in` (when it’s up and my schedule stops being hostile)
-- Portfolio: `rajahmed.co` (when I update it, which is also TBD)
+## Featured Projects (a.k.a. "Things I actually ship")
+
+### 🏏 The Cricket Data Pipeline
+Processing massive, horrifying cricket JSON dumps into clean **Parquet** files for analytical bliss (via **DuckDB** and **dbt**).
+- **`cricket`** — The ETL pipeline. Status: Evolving (a.k.a. "life happened, exams happened, will update later").
+- **`cricdata`** — The companion structure/requirements repo. (Currently private).
+*Bonus: Will eventually point to `cricdata.co.in` once my schedule stops being actively hostile.*
+
+### ⚛️ `QC-Lib` (Dependency-Minimal Quantum)
+A **pure-Python + NumPy** quantum statevector simulator. Basically: "I made a tiny Qiskit, minus the industrial scaffolding."
+- Features `QuantumCircuit`, `QuantumGate`, and `Statevector`.
+- Uses efficient tensor operations (`tensordot`) for gate applications.
+- Built-in validation (normalization, unitarity, dimensions).
+- `run()` for ideal statevectors and `sample(shots=...)` for measurement counts.
+
+### 🎨 `colour`
+A mathematical engine to transform standard RGB to different color spaces and calculate the objective difference to the human eye. 
+
+### 🎧 The Spotify Multiverse
+- **`spotifypublic`** & **`spotdat`** — Extracting, transforming, and loading Spotify data because streaming stats deserve better analytics than whatever *wrapped* is.
 
 ---
 
-### PS
-If you’re here for *serious* work: yes.  
-If you’re here for *cricket + quantum + web apps coexisting in one profile*: also yes.
-If you're here for a `Kohli Obessed Womens cricket nerd`: 100% yes.
+## The Toolbox
+- **Languages:** Python (Primary), C/C++, Java, JS, PHP
+- **Data/Analytics:** DuckDB, Parquet, dbt, Pandas (and quintessenital SQL multiverse)
+- **Web:** Flask, Django, HTML/CSS/JS
+- **Math/Compute:** NumPy (the backbone of my obsessions)
+
+---
+
+## How I Build
+- Start with a script, graduate to a pipeline, then pretend it was a highly scalable architecture from day one.
+- Prefer **simple dependencies** and readable code over "it works if you install 47 packages and whisper sweet nothings to `pip`, and when `pipreqs .` betrays".
+- If it can be validated mathematically, it *will* be validated.
+- If it SSHes, it works.
+
+---
+
+## Ping Me
+- **GitHub:** `@eremognosis`
+- **Portfolio:** `rajahmed.co` (TBD when I stop procrastinating)
+- **Cricket Analytics:** `cricdata.co.in` (Coming soon to a DNS near you)
+
+---
+
+### P.S.
+If you’re here for *serious* engineering work: Yes.  
+If you’re here for a chaotic mix of quantum mechanics, web dev, and cricket: Also yes.  
+If you're here for a cat loving, Kohli-obsessed and women's cricket nerd: 100% yes.
