@@ -11,7 +11,8 @@ I build things in **Python** (mostly, though I tolerate C/C++/Java/JS/PHP) that 
 
 ## Background
 - 19-year-old CSE undergrad at **NIT Trichy**.
-- Deeply passionate about Math, Physics, Data, and Hiphop. 
+- Deeply passionate about Math, Physics, Data, and Hiphop.
+- Multiple Olympiads Winner
 - If a project requires high-level math, system design, or sheer stubbornness, I'm probably building it.
 
 ---
