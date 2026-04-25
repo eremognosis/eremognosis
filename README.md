@@ -70,7 +70,7 @@ A mathematical engine to transform standard RGB to different color spaces and ca
 <p><a href="https://www.buymeacoffee.com/eremognosis"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="eremognosis" /></a></p><br><br>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=eremognosis&" alt="eremognosis" /></p>
-
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=eremognosis&theme=dark&hide_border=true&border_radius=4.4&locale=hi" alt="GitHub Streak" /></a>
 
 ---
 ## Don't Let the Internet go in vain
